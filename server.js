@@ -5,7 +5,7 @@ const fs = require('fs');
 //Random ID Generator
 const {Generator} = require('randomly-id-generator');
 
-const PORT = process.env.port || 3001;
+const PORT = process.env.port
 const app = express();
 app.use(express.static(path.join(__dirname, '/public')));
 
@@ -82,5 +82,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () =>
-    console.log(`App listening at http://localhost:${PORT}`)
+    console.log(`App listening at ${PORT}`)
 );
