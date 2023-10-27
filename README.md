@@ -32,6 +32,3 @@ https://www.npmjs.com/package/randomly-id-generator
 
 ## License
 MIT License
-
-## Walkthrough
-https://drive.google.com/file/d/194Fhyt6i98aFsQfk6ffEADa8Vnu29b0a/view
