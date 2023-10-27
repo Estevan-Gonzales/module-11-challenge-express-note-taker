@@ -5,7 +5,7 @@ const fs = require('fs');
 //Random ID Generator
 const {Generator} = require('randomly-id-generator');
 
-const PORT = process.env.port
+const PORT = process.env.PORT || 3001;
 const app = express();
 app.use(express.static(path.join(__dirname, '/public')));
 
